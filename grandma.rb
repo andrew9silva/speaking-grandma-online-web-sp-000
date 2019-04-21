@@ -1,5 +1,5 @@
 def speak_to_grandma(phrase)
-  if phrase = "hello"
+  if phrase = phrase.toLowerCase
     puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase = "HELLO"
     puts "NO, NOT SINCE 1938!"
